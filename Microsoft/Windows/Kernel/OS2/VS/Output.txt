@@ -1,0 +1,23 @@
+1	LockResource	task( 3)( 0)	R2 3 to 1
+3	UnlockResource	task( 3)( 0)	R2 1 to 3
+6	Completion	task( 3)( 0)	task( 1)( 0)	6		0			0
+7	Preemption	task( 1)( 0)	task( 2)( 0)
+12	Completion	task( 2)( 0)	task( 1)( 0)	5		0			0
+12	LockResource	task( 1)( 0)	R1 9 to 8
+14	UnlockResource	task( 1)( 0)	R1 8 to 9
+16	LockResource	task( 1)( 0)	R2 9 to 1
+18	UnlockResource	task( 1)( 0)	R2 1 to 9
+19	Completion	task( 1)( 0)	task(63)	18		0			10
+20	Preemption	task(63)	task( 3)( 1)
+21	LockResource	task( 3)( 1)	R2 3 to 1
+23	UnlockResource	task( 3)( 1)	R2 1 to 3
+26	Completion	task( 3)( 1)	task(63)	6		0			0
+32	Preemption	task(63)	task( 1)( 1)
+33	LockResource	task( 1)( 1)	R1 9 to 8
+35	Preemption	task( 1)( 1)	task( 2)( 1)
+40	Completion	task( 2)( 1)	task( 3)( 2)	5		0			0
+41	LockResource	task( 3)( 2)	R2 3 to 1
+43	UnlockResource	task( 3)( 2)	R2 1 to 3
+46	Completion	task( 3)( 2)	task( 1)( 1)	6		0			0
+46	UnlockResource	task( 1)( 1)	R1 8 to 9
+48	LockResource	task( 1)( 1)	R2 9 to 1

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Microsoft",
+    "\\Microsoft\\Windows",
+    "\\Microsoft\\Windows\\Kernel",
+    "\\Microsoft\\Windows\\Kernel\\OS2"
+  ],
+  "SelectedNode": "\\Microsoft\\Windows\\Kernel\\OS2\\main.c",
+  "PreviewInSolutionExplorer": false
+}
