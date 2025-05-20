@@ -1,4 +1,4 @@
-# Handling Priority Inversion via NPCS in μC/OS-II RM Scheduling  
+# Handling Priority Inversion via ceiling-priority protocol (CPP) in μC/OS-II RM Scheduling  
 
 ## Objective
 Implement the ceiling-priority protocol (CPP) based on the RM scheduler in μC/OS-II
